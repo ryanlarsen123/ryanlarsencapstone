@@ -1,0 +1,1002 @@
+<!-- Generated code: DO NOT EDIT! Any changes will void this file. -->
+<!-- 2C47A17E1BF44DF7DDCBA50695198412 -->
+<opt autoreadsensors="2" class="Scribbler_Worksheet" version="2.0">
+  <_children active="1" activecalls="0" activeout="1" class="Scribbler_Subroutine" color="green" counters="1" subclass="">
+    <_children active="1" activeout="0" class="Scribbler_SubroutineTile" subclass="sub_begin">
+      <action icon="gear_green" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 3.00s" timer="3.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 3.85s" timer="3.85" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 3.00s" timer="3.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="1" class="Scribbler_Loop" subclass="">
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_begin">
+        <action reps="13" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 5.00s" timer="5.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_end">
+        <action></action>
+      </_children>
+      <action></action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 1.00s" timer="1.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 2.95s" timer="2.95" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 0.50s" timer="0.50" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 3.50s" timer="3.50" type="set" />
+    </_children>
+    <_children active="1" activeout="1" class="Scribbler_Loop" subclass="">
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_begin">
+        <action reps="4" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.50s" timer="1.50" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_end">
+        <action></action>
+      </_children>
+      <action></action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rev" left="-50" right="-50" text="-50:-50 1.50s" timer="1.50" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rev" left="-50" right="-50" text="-50:-50 1.50s" timer="1.50" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rev" left="-50" right="-50" text="-50:-50 1.50s" timer="1.50" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 1.00s" timer="1.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 0.90s" timer="0.90" type="set" />
+    </_children>
+    <_children active="1" activeout="1" class="Scribbler_Loop" subclass="">
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_begin">
+        <action reps="7" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 0.60s" timer="0.60" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 0.60s" timer="0.60" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_end">
+        <action></action>
+      </_children>
+      <action></action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 3.00s" timer="3.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 4.00s" timer="4.00" type="set" />
+    </_children>
+    <_children active="1" activeout="1" class="Scribbler_Loop" subclass="">
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_begin">
+        <action reps="20" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.50s" timer="1.50" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_end">
+        <action></action>
+      </_children>
+      <action></action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 3.20s" timer="3.20" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 1.00s" timer="1.00" type="set" />
+    </_children>
+    <_children active="1" activeout="1" class="Scribbler_Loop" subclass="">
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_begin">
+        <action reps="8" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.50s" timer="1.50" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_end">
+        <action></action>
+      </_children>
+      <action></action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 3.25s" timer="3.25" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="1" class="Scribbler_Loop" subclass="">
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_begin">
+        <action reps="4" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_end">
+        <action></action>
+      </_children>
+      <action></action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 2.75s" timer="2.75" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 0.50s" timer="0.50" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 0.70s" timer="0.70" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 0.40s" timer="0.40" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 1.10s" timer="1.10" type="set" />
+    </_children>
+    <_children active="1" activeout="1" class="Scribbler_Loop" subclass="">
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_begin">
+        <action reps="3" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_end">
+        <action></action>
+      </_children>
+      <action></action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 0.80s" timer="0.80" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="1" class="Scribbler_Loop" subclass="">
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_begin">
+        <action reps="3" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 1.00s" timer="1.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+        <action call="" icon="move_rot_left" left="-50" right=" 50" text="-50:50 2.00s" timer="2.00" type="set" />
+      </_children>
+      <_children active="1" activeout="0" class="Scribbler_LoopTile" subclass="loop_end">
+        <action></action>
+      </_children>
+      <action></action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="5" text="fJ1 fJ2 fJ3 fJ4">
+        <_sequence abbr="fJ1" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 1" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="587.329535834815" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ2" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 2" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ3" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 3" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="880" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="783.990871963499" type="note" />
+          <_notes dmult="0.5" duration="375" fmult="1" frequency="698.456462866008" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="659.25511382574" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+        <_sequence abbr="fJ4" bars="1" class="Scribbler_SoundBite" color="blue" comment="Frere Jacque 4" group="Song" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes type="loopbegin">
+            <_reps>1</_reps>
+            <_reps>2</_reps>
+            <_reps>1</_reps>
+          </_notes>
+          <_notes dmult="1" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes dmult="1" duration="375" fmult="1" frequency="391.995435981749" type="note" />
+          <_notes dmult="2" duration="375" fmult="1" frequency="523.251130601197" type="note" />
+          <_notes type="loopend" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_rot_right" left=" 50" right="-50" text="50:-50 0.55s" timer="0.55" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 5.00s" timer="5.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_MotionTile" subclass="">
+      <action call="" icon="move_fwd" left=" 50" right=" 50" text="50:50 2.00s" timer="2.00" type="set" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_PauseTile" subclass="">
+      <action call="" icon="pause" text="1.0s" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SubroutineTile" subclass="sub_end">
+      <action icon="gear_green" />
+    </_children>
+    <action></action>
+    <callsto></callsto>
+  </_children>
+</opt>
